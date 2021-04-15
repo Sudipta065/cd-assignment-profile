@@ -1,0 +1,135 @@
+.log-in-container {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.left {
+  width: 70%;
+  background: url("../img/canvas.png");
+  background-size: cover;
+  height: 40rem;
+  color: #fff;
+}
+
+.left-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-left-content {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 10rem;
+  align-items: center;
+  justify-content: center;
+}
+.top-left-content h1 {
+  text-align: center;
+  font-weight: bold;
+}
+.top-left-content p {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+.right {
+  width: 50%;
+}
+.bottom-left-content .message {
+  font-size: 0.9rem;
+}
+.bottom-left-content .email {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #00f241;
+  font-weight: bold;
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+.right-container .title {
+  font-weight: bold;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.right-container .mail-password-div {
+  display: flex;
+  flex-direction: column;
+}
+.right-container .mail-password-div input {
+  border: 1px solid #9a9abe;
+  margin: 0.4rem;
+  color: #728391;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.bottom-left-content {
+  margin-top: 1rem;
+}
+.footer-div {
+  display: flex;
+  margin: 0.4rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.footer-div .forgot {
+  color: #0062ff;
+}
+.sign-in-btn-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.sign-in-btn {
+  border: none;
+  color: #fff;
+  background-color: #0062ff;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.6rem 8rem;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.sign-in-btn-div p {
+  margin-bottom: 1rem;
+}
+
+.social-fl-div i {
+  margin: 0.3rem;
+  font-size: 1.7rem;
+  color: #728391;
+  margin-bottom: 1rem;
+}
+.foot a {
+  text-decoration: none;
+  color: #0062ff;
+}
+@media only screen and (max-width: 54em) {
+  .sign-in-btn {
+    padding: 0.6rem 4rem;
+  }
+  .log-in-container {
+    flex-direction: column;
+  }
+  .right {
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+  .top-left-content {
+    margin-top: 1rem;
+  }
+}

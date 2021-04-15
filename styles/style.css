@@ -1,0 +1,416 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+*/
+* {
+  margin: 0;
+}
+.navbar-section {
+  display: flex;
+  background-color: #f8f8f9;
+  height: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-section .logo-div {
+  height: 100%;
+  margin-left: 1.5rem;
+}
+.navbar-section .logo-div img {
+  width: 100%;
+  height: 100%;
+}
+.nav-items-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 5rem;
+}
+.nav-items-div .nav-item {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin: 0.8rem;
+}
+.sign-in-div {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #0062ff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+.sign-in-group {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+.sign-in-group i {
+  font-size: 1.7rem;
+  margin-right: 0.4rem;
+}
+.sign-in-group a {
+  text-decoration: none;
+  color: #0062ff;
+}
+.sign-up-btn {
+  color: #fff;
+  background-color: #60d91a;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-items-div .nav-item a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-items-div .nav-item-active a {
+  color: #0062ff;
+}
+.main-container {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+.user-img-div {
+  width: 50%;
+}
+.navbar-container {
+  width: 20%;
+
+  background: #0b2a5a 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.user-img-div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.user-img-div img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  align-items: center;
+}
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  color: #fff;
+  font-size: 80%;
+  padding: 0.8rem;
+}
+.title-div .name {
+  margin-top: 1.2rem;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+.title-div .education {
+  font-weight: 400;
+  color: #9a9abe;
+  align-items: center;
+  text-align: center;
+}
+.title-div .designation {
+  color: #9a9abe;
+}
+.nav-button-div {
+  width: 100%;
+  margin: 0;
+  margin-top: 1rem;
+}
+.nav-item-div {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-item-div-active {
+  color: #60d91a;
+  border-left: 4px solid #60d91a;
+}
+.nav-button-div img {
+  margin-right: 1rem;
+}
+
+.content-container {
+  width: 80%;
+  background-color: #f8f8f9;
+}
+.first-row {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.first-row .money-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #6b00bc;
+  color: #fff;
+  padding: 1.4rem;
+  width: 33%;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0rem 2rem;
+
+  border-radius: 0.7rem;
+}
+.money-div .title {
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+}
+
+.money-div .content {
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.second-row .button-div {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  border-radius: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0 2rem;
+  padding: 1rem 0;
+  background-color: #e8ecf1;
+  color: #728391;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.second-row .button-div-active {
+  background-color: #0062ff;
+  box-shadow: 0px 10px 20px #0062ff4d;
+  color: #fff;
+}
+.third-row {
+  margin: 0 2.7rem;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px #01368619;
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.third-row .row-1 {
+  display: flex;
+  padding: 1rem;
+  width: 100%;
+  border-bottom: 5px solid #f8f8f9;
+}
+.third-row .row-1 .image-section {
+  width: 35%;
+  padding: 0.8rem;
+}
+.third-row .row-1 .image-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.third-row .row-1 .content-section {
+  width: 65%;
+  padding: 0.8rem;
+}
+.third-row .row-1 .content-section .title {
+  color: #728391;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+.third-row .row-1 .content-section .name {
+  color: #1000a9;
+  width: 75%;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.third-row .row-1 .content-section .date {
+  color: #aaaabe;
+  width: 55%;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 2.5rem;
+}
+.third-row .row-1 .content-section .info {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.third-row .row-1 .content-section .info .info-div .info-title {
+  color: #728391;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.third-row .row-1 .content-section .info .info-div .info-number {
+  color: #1000a9;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.third-row .row-2 {
+  display: flex;
+}
+.third-row .row-2 .section-1 {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem;
+}
+.third-row .row-2 .section-1 .button-section {
+  padding: 0.8rem;
+}
+.third-row .row-2 .section-1 .button-section a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0062ff;
+}
+.third-row .row-2 .section-2 {
+  width: 20%;
+  display: flex;
+}
+.third-row .row-2 .section-2 .social-div {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2rem;
+}
+.third-row .row-2 .section-2 .social-div i {
+  font-size: 1.2rem;
+  color: #728391;
+  padding: 0.4rem;
+}
+
+@media only screen and (max-width: 66.25em) {
+  .money-div .content {
+    font-size: 1.5rem;
+  }
+  .title-div .name {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 59.625em) {
+  .money-div .content {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 52.75em) {
+  .money-div .content {
+    font-size: 1rem;
+  }
+  .title-div .name {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 50em) {
+  .main-container {
+    flex-direction: column;
+  }
+  .navbar-container {
+    width: 100%;
+  }
+  .content-container {
+    width: 100%;
+  }
+  .first-row {
+    margin-top: 1.4rem;
+  }
+
+  .navbar-section {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  .navbar-section .logo-div img {
+    width: 50%;
+  }
+  .nav-items-div {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sign-in-div {
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+}
+@media only screen and (max-width: 38.125em) {
+  .first-row {
+    flex-direction: column;
+  }
+  .first-row .money-div {
+    width: 80%;
+    margin-top: 0.3rem;
+  }
+}
+@media only screen and (max-width: 37.875em) {
+  .third-row .row-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .third-row .row-1 .image-section {
+    width: 100%;
+  }
+  .third-row .row-1 .content-section {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 31.875em) {
+  .row-2 {
+    flex-direction: column;
+  }
+  .row-2 .section-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .third-row .row-2 .section-2 {
+    width: 100%;
+  }
+  .third-row .row-2 .section-2 .social-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 27.25em) {
+  .third-row .row-1 .image-section {
+    width: 70%;
+  }
+  .third-row .row-1 .content-section .info {
+    flex-direction: column;
+  }
+}

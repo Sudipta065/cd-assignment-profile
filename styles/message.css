@@ -1,0 +1,148 @@
+.chatbox-container {
+  background-color: #d7dde8;
+
+  width: 80%;
+  margin: 0 2rem 2rem 2rem;
+  display: flex;
+}
+.chatbox-container .left-container {
+  width: 50%;
+  background-color: #1000a9;
+  display: flex;
+  flex-direction: column;
+}
+.chatbox-container .right-container {
+  width: 50%;
+  margin: 0.5rem;
+}
+.searchbox-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.searchbox {
+  background-color: #f8f8f9;
+
+  color: #728391;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 5rem 0.8rem 0.8rem;
+  border-radius: 2rem;
+  align-items: center;
+}
+.searchbox input {
+  border: none;
+  background-color: #f8f8f9;
+}
+.searchbox i {
+  margin-right: 0.5rem;
+}
+.chatbox-container .left-container .contact-box {
+  display: flex;
+}
+.chatbox-container .left-container .contact-box-active {
+  background-color: #0062ff;
+}
+.contact-img-div {
+  width: 20%;
+  margin: 0.5rem;
+}
+
+.contact-img-div img {
+  width: 100%;
+  border-radius: 50%;
+}
+.contact-info-div {
+  width: 80%;
+  color: #9a9abe;
+  margin: 1rem;
+}
+
+.contact-info-div-active {
+  color: #fff;
+}
+.contact-title-div .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+.contact-title-div .title .active-status {
+  color: #0062ff;
+}
+.contact-title-div .active-status-active {
+  color: #00f241;
+}
+.description-div {
+  margin-right: 2rem;
+}
+.right-chatbox-div {
+  display: flex;
+  justify-content: end;
+}
+.left-chatbox-div {
+  display: flex;
+  justify-content: start;
+}
+.contact-box-active-left {
+  font-size: 0.9rem;
+  background-color: #728391;
+  clip-path: polygon(4% 0%, 4% 74%, 0% 100%, 100% 100%, 100% 0%);
+  padding: 1rem;
+  padding-left: 1.8rem;
+  margin: 1rem;
+  width: 75%;
+  color: #fff;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+.contact-box-active-right {
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #60d91a;
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 94% 75%, 94% 0%);
+  padding: 1rem;
+  padding-right: 1.8rem;
+  margin: 1rem;
+  width: 75%;
+  border-top-left-radius: 0.4rem;
+
+  border-bottom-left-radius: 0.4rem;
+}
+.chatbox-section,
+.chatbar-section {
+  margin: 1rem;
+  background-color: #fff;
+}
+.chatbar-section {
+  border-radius: 3rem;
+}
+.chatbox {
+  padding: 1rem;
+}
+
+.chatbar-section input {
+  border: none;
+  font-size: 1.2rem;
+  width: 90%;
+}
+.chatbar-section i {
+  font-size: 1.4rem;
+}
+.chatbar-section a {
+  color: #0062ff;
+  text-decoration: none;
+}
+@media only screen and (max-width: 50em) {
+  .chatbox-container {
+    flex-direction: column;
+  }
+  .chatbox-container .left-container {
+    width: 100%;
+  }
+  .chatbox-container .right-container {
+    width: 100%;
+  }
+}

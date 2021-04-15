@@ -1,0 +1,75 @@
+.profile-container .profile-1-div {
+  background-color: #fff;
+  margin: 0 1rem 1rem 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 5px 10px #01368619;
+}
+.profile-container .profile-1-div .title {
+  color: #728391;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.input-field-half-container {
+  display: flex;
+  width: 100%;
+}
+.input-field-half-container .input-field-half {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1rem;
+}
+.profile-container input {
+  margin-top: 0.8rem;
+  background-color: #f8f8f9;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #728391;
+}
+.profile-container label {
+  font-size: 1.05em;
+}
+.input-field-full-container {
+  width: 100%;
+}
+.input-field-full-container .input-field-full {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  margin: 1rem;
+}
+
+.save-btn-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.save-btn-div .save-btn {
+  border: none;
+  color: #fff;
+  background-color: #0062ff;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.6rem 8rem;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 50em) {
+  .profile-container {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 33.625em) {
+  .input-field-half-container {
+    flex-direction: column;
+  }
+  .input-field-half-container .input-field-half {
+    width: 97%;
+  }
+}
